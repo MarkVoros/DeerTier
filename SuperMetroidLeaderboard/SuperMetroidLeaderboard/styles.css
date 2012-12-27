@@ -1,0 +1,406 @@
+﻿@font-face {
+	font-family: OptimusPrinceps;
+	src: url('Fonts/optimusprinceps.otf');
+}
+
+html
+{
+    height: 100%;
+}
+
+body 
+{
+    font-family: Calibri;
+    font-size: 16px;
+    background-color: Black;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+}
+
+h1
+{
+    font-size: 32px;
+}
+
+h2
+{
+    font-size: 24px;
+}
+
+ul
+{
+    
+}
+
+ul li
+{
+   list-style-type: square;
+}
+
+table
+{
+    width: 780px;
+    display: inline-table;
+    background-color: #111;
+    /*color: #8F8684;*/
+    color: Silver;
+    border-collapse: collapse;
+}
+
+.rankColumn { width: 50px; }
+.playerColumn { width: 130px; }
+.realTimeColumn { width: 80px; }
+.gameTimeColumn { width: 80px; }
+.proofColumn { width: 90px; }
+.commentColumn { width: 350px; }
+
+td.videoLink a
+{
+    color: inherit !important;
+    text-decoration: underline;
+}
+
+td.videoLink a:hover
+{
+    color: Red !important;
+    text-shadow: none;
+}
+
+tbody tr:nth-child(odd) { background-color: #24201F; /*zebra print light grey*/}
+tbody tr:nth-child(2) { color: Yellow; text-shadow: 0px 0px 2px Yellow; /*gold*/ }
+tbody tr:nth-child(3) { color: #EEEFF7; text-shadow: 0px 0px 2px #EEEFF7; /*silver*/ }
+tbody tr:nth-child(4) { color: #F2911B; text-shadow: 0px 0px 2px #F2911B; /*bronze*/ }
+
+th
+{
+    font-weight: bold;
+    color: #EEEFF7;
+    text-align: center;
+    border-top: 1px solid #B80000; /*bright red*/
+    border-bottom: 1px solid #B80000; /*bright red*/
+    background-color: #590402; /*dark red*/
+}
+
+td
+{
+    /*width: 200px;*/
+    text-align: center;
+    border-bottom: 1px solid #666; /*grey*/
+}
+
+a, a:visited
+{
+    color: #EEEFF7;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: Red;
+    text-decoration: underline;
+}
+
+.glow:hover
+{
+    text-shadow: 0px 0px 5px Red;
+    text-decoration: none;
+    color: Red;
+}
+
+#header
+{
+    color: #EEEFF7;    
+    background-color: Black;
+}
+
+.loginBar
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mainTitle  
+{
+    font-family: OptimusPrinceps;
+    text-align: center;
+    font-size: 72px; 
+    height: 70px;
+    text-shadow: 0px 0px 5px White;
+}
+
+.subtitle  
+{
+    font-family: OptimusPrinceps;
+    text-align: center;
+    font-size: 32px;
+    text-shadow: 0px 0px 5px White;
+}
+
+#navigation
+{
+    text-align: center;
+    color: #EEEFF7;
+    background-color: #590402; /*dark red*/
+    border-bottom: 1px solid #B80000; /*bright red*/
+    border-top: 1px solid #B80000;
+}
+
+#contentContainer
+{
+    background-color: #101314; /*light grey*/
+    
+}
+
+#content
+{
+    width: 780px;
+    margin: 0 auto;
+    background-color: Black;
+    color: #EEEFF7;  /*grey font*/
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+}
+
+#submitButton
+{
+    font-family: Calibri;
+    float: right;
+    margin-top: 5px;
+}
+
+#submitButton input
+{
+    background: transparent;
+    border: none;
+    color: white;
+    width: auto;
+    cursor: pointer;
+}
+
+#submitButton input:hover
+{
+    text-shadow: 0px 0px 5px Red;
+    color: Red;
+}
+
+#footer
+{
+    text-align: center;
+    color: #EEEFF7;
+    background-color: Black;
+    border-top: 1px solid #EEEFF7;
+}
+
+.floatLeft
+{
+    float: left;
+}
+
+.floatRight
+{
+    float: right;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#login
+{
+    text-align: center;
+}
+
+#signUp
+{
+    text-align: center;
+}
+
+#addTime
+{
+    text-align: center;
+}
+
+.loginSignUpForm
+{
+    text-align: right;
+    margin-right: 260px;
+}
+
+.loginSignUpForm input
+{
+    margin-bottom: 10px;
+}
+
+input[type=submit]
+{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.addTimeTextField
+{
+    width: 80px;
+    text-align: center;
+}
+
+.videoLinkTextField
+{
+    width: 400px;
+    text-align: center;
+}
+
+.commentTextField
+{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+}
+
+textarea
+{
+    width: 180px;
+    resize: none;
+}
+
+.statusLiteral
+{
+    color: Red; /*bright red*/
+    text-shadow: 0px 0px 2px #B80000;
+}
+
+.addTimeForm
+{
+    /*text-align: right;
+    margin-right: 260px;*/
+    margin: 0 auto;
+}
+
+.addTimeForm input
+{
+    margin-bottom: 10px;
+}
+
+.addTimeTitle
+{
+    font-size: 32px;
+    text-align: center;
+}
+
+.scoreTable
+{
+    clear: both;
+    text-align: center;
+}
+
+.genericButton input
+{
+    background: #B80000;
+    border-color: #590402;
+    border-style: solid;
+    color: White;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.genericButton input:hover
+{
+    background: #590402;
+    border-color: #380900;
+    color: White;
+}
+
+.logOutButton
+{
+    font-family: Calibri;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    color: #EEEFF7;
+    width: auto !important;
+    display: inline !important;
+    cursor: pointer;
+}
+
+.logOutButton:hover
+{
+    color: Red;
+    text-decoration: underline;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.japaneseTitle
+{
+    text-align: center;
+    font-size: 28px;
+}
+
+.quoteContainer
+{
+   width: 350px;
+   margin: 0 auto;
+   background-color: #0D0D0D;
+   padding: 10px 35px 10px 50px;
+   border-radius: 10px;
+}
+
+.quote
+{
+    
+    font-size: 16px;
+    color: Silver;
+    font-style: italic;
+}
+
+.topLeftQuote
+{
+    color: Silver;
+    font-size: 64px;
+    position: absolute;
+    left: 450px;
+    top: 250px;
+}
+
+.bottomRightQuote
+{
+    color: Silver;
+    font-size: 64px;
+    position: absolute;
+    right: 450px;
+    top: 320px;
+}
+
+.link
+{
+    text-decoration: underline;
+}
+
+.deerForceFont
+{
+    color: Yellow;
+    text-shadow: 0px 0px 2px Yellow;
+}
+
+.deerTierFont
+{
+    color: Red;
+    text-shadow: 2px 2px 2px #B80000;
+}
+
+.mainTitle a:hover
+{
+    text-decoration: none;
+    color: #EEEFF7;
+}
+
+.subtitle a:hover
+{
+    text-decoration: none;
+    color: #EEEFF7;
+}

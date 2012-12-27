@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SuperMetroidLeaderboard.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="Stylesheet" type="text/css" href="reset.css" />
+    <link rel="Stylesheet" type="text/css" href="styles.css?v=2" />
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div id="header">
+        <div class="loginBar">
+
+            <asp:PlaceHolder ID="loggedInControls" runat="server">
+                Welcome, <asp:Literal ID="usernameLiteral" runat="server" />
+                |
+                <asp:Button CssClass="logOutButton" ID="LogOutButton" runat="server" Text="Log out" />
+            </asp:PlaceHolder>
+            <asp:PlaceHolder ID="loggedOutControls" runat="server">
+                <a href="Login.aspx?redirect=Main">Log in</a>
+                | 
+                <a href="SignUp.aspx">Sign up</a>
+            </asp:PlaceHolder>
+        </div>
+
+        <div class="mainTitle"><a href="Main.aspx">Deer Force</a></div>
+        <div class="subtitle"><a href="Main.aspx">Hall of Fame</a></div>
+
+    </div>
+
+    <div id="navigation">
+        <a href="RealTime.aspx">Any% Real Time</a> 
+        | 
+        <a href="GameTime.aspx">Any% Game Time</a>
+        |
+        <a href="OneHundredPercentRT.aspx">100% Collection Rate</a>
+        |
+        <a href="OneHundredPercentMapCompletion.aspx">100% Map Completion</a>
+        |
+        <a href="LowPercentIceBeam.aspx">Low% Ice Beam</a>
+        |
+        <a href="LowPercentSpeedBooster.aspx">Low% Speed Booster</a>
+    </div>
+    
+    <div id="contentContainer">
+        <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+    <div id="footer">&copy <a href="http://www.twitch.tv/mrlandmaster">MrLandmaster</a> 2012</div>
+
+    </form>
+</body>
+</html>
