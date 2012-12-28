@@ -9,18 +9,18 @@
         <br />
 
         <div class="addTimeForm">
-            Real time:<br />            
+            Real time: (e.g. 1:01:50 or 57:44)<br />            
             <asp:TextBox CssClass="addTimeTextField" ID="realTimeTextBox" runat="server" /><br />
 
             <asp:PlaceHolder ID="gameTimePlaceHolder" runat="server" >
-                Game time:</br>
+                Game time: (e.g. 00:41)<br />
                 <asp:TextBox CssClass="addTimeTextField" id="gameTimeTextBox" runat="server" /><br />
             </asp:PlaceHolder>
 
             Video URL:<br />
             <asp:TextBox CssClass="videoLinkTextField" ID="videoLinkTextBox" runat="server" /><br />
 
-            Comment:</br>
+            Comment:<br />
             <asp:TextBox CssClass="commentTextField" ID="commentTextBot" runat="server" /><br />
         </div>
 
