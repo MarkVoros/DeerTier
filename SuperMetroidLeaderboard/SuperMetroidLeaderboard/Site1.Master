@@ -43,10 +43,13 @@
                 <ul>
                     <a href="RealTime.aspx"><li>Any% Real Time</li></a>
                     <a href="GameTime.aspx"><li>Any% Game Time</li></a>
+                    <a href="GTCode.aspx"><li>Any% GT Code</li></a>
                     <a href="OneHundredPercentRT.aspx"><li>100% Collection Rate</li></a>
                     <a href="OneHundredPercentMapCompletion.aspx"><li>100% Map Completion</li></a>
                     <a href="LowPercentIceBeam.aspx"><li>Low% Ice Beam</li></a>
                     <a href="LowPercentSpeedBooster.aspx"><li>Low% Speed Booster</li></a>
+                    <a href="ReverseBossOrder.aspx"><li>Reverse Boss Order</li></a>
+                    <a href="PowerBombs.aspx"><li>Power Bombs Any% Route</li></a>
                 </ul>
             </div>
     

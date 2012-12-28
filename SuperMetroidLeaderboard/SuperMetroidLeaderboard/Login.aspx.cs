@@ -86,6 +86,15 @@ namespace SuperMetroidLeaderboard
                 case "lowpercentspeed":
                     redirectPath = "AddTime.aspx?mode=lowpercentspeed";
                     return redirectPath;
+                case "gtcode":
+                    redirectPath = "AddTime.aspx?mode=gtcode";
+                    return redirectPath;
+                case "rbo":
+                    redirectPath = "AddTime.aspx?mode=rbo";
+                    return redirectPath;
+                case "powerbombs":
+                    redirectPath = "AddTime.aspx?mode=powerbombs";
+                    return redirectPath;
                 default:
                     return "Main.aspx";
             }

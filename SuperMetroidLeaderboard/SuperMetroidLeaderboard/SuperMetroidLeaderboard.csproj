@@ -60,6 +60,7 @@
     <Content Include="favicon.ico" />
     <Content Include="GameTime.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="GTCode.aspx" />
     <Content Include="Images\background2.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\purple_stars.jpg" />
@@ -71,6 +72,8 @@
     <Content Include="OneHundredPercentMapCompletion.aspx" />
     <Content Include="OneHundredPercentRT.aspx" />
     <Content Include="CSS\reset.css" />
+    <Content Include="PowerBombs.aspx" />
+    <Content Include="ReverseBossOrder.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="CSS\styles.css" />
     <Content Include="SuccessPage.aspx" />
@@ -126,6 +129,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="GTCode.aspx.cs">
+      <DependentUpon>GTCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GTCode.aspx.designer.cs">
+      <DependentUpon>GTCode.aspx</DependentUpon>
+    </Compile>
     <Compile Include="LowPercentIceBeam.aspx.cs">
       <DependentUpon>LowPercentIceBeam.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -156,7 +166,21 @@
     <Compile Include="OneHundredPercentRT.aspx.designer.cs">
       <DependentUpon>OneHundredPercentRT.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PowerBombs.aspx.cs">
+      <DependentUpon>PowerBombs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PowerBombs.aspx.designer.cs">
+      <DependentUpon>PowerBombs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReverseBossOrder.aspx.cs">
+      <DependentUpon>ReverseBossOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReverseBossOrder.aspx.designer.cs">
+      <DependentUpon>ReverseBossOrder.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Score.cs" />
     <Compile Include="SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>

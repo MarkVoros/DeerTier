@@ -23,7 +23,6 @@
                 <ul>
                     <li>All files ... should start at 0:00 with the intro sequence completed so play begins in the Ceres station.</li>
                     <li>SNES9x 1.43 and ZSNES are banned.</li>
-                    <li>Gold Torizo code is banned.</li>
                     <li>Save the critters at your own discretion.</li>
                 </ul>
             </div>

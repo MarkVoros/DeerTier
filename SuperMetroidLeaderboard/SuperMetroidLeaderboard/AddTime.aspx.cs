@@ -64,6 +64,24 @@ namespace SuperMetroidLeaderboard
                     leaderboardType = "Low%Speed";
                     mode = "Low%Speed";
                     break;
+                case "gtcode":
+                    gameTimePlaceHolder.Visible = false;
+                    titleLiteral.Text = "<h2>Add Time: Any% GT Code</h2>";
+                    leaderboardType = "Any%GTCode";
+                    mode = "Any%GTCode";
+                    break;
+                case "rbo":
+                    gameTimePlaceHolder.Visible = false;
+                    titleLiteral.Text = "<h2>Add Time: Reverse Boss Order</h2>";
+                    leaderboardType = "RBO";
+                    mode = "RBO";
+                    break;
+                case "powerbombs":
+                    gameTimePlaceHolder.Visible = false;
+                    titleLiteral.Text = "<h2>Add Time: Power Bombs Any% Route</h2>";
+                    leaderboardType = "PowerBombsAny%";
+                    mode = "PowerBombsAny%";
+                    break;
             }
         }
 
@@ -114,7 +132,7 @@ namespace SuperMetroidLeaderboard
                 }
             }
             else if (leaderboardType == "Any%RealTime" || leaderboardType == "100%" || leaderboardType == "Low%Ice" || leaderboardType == "Low%Speed" 
-                  || leaderboardType == "100%Map")
+                  || leaderboardType == "100%Map" || leaderboardType == "Any%GTCode" || leaderboardType == "RBO" || leaderboardType == "PowerBombsAny%")
             {
                 if (realTimeString == "")
                 {
