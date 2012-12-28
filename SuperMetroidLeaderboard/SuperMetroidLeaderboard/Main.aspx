@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Main" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="SuperMetroidLeaderboard.WebForm1" %>
+﻿<%@ Page Title="Deer Force Hall of Fame" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="SuperMetroidLeaderboard.WebForm1" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="mainPageContent">

@@ -57,6 +57,7 @@
   <ItemGroup>
     <Content Include="AddTime.aspx" />
     <None Include="App_Data\Database.sdf" />
+    <Content Include="favicon.ico" />
     <Content Include="GameTime.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\background2.jpg" />
